@@ -176,7 +176,7 @@ export const Student = () => {
     },
   ];
   return (
-    <div>
+    <div className="px-150 py-5">
       {students.map((value, i) => {
         return (
           <ProfileCard

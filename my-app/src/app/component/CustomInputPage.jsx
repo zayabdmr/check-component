@@ -4,11 +4,12 @@ import { CustomInput } from "./CustomInput";
 export const CustomInputPage = () => {
   return (
     <div>
-      <div className="flex flex-col gap-4 bg-purple-950">
+      <div className="flex flex-col gap-4">
         <CustomInput labelText="Checkbox" inputType="checkbox" />
-        <CustomInput labelText="email" type="email" />
-        <CustomInput labelText="password" inputType="password" />
-        <CustomInput labelText="password" inputType="number" />
+        <CustomInput labelText="Email" inputType="email" />
+        <CustomInput labelText="Password" inputType="password" />
+        <CustomInput labelText="Confirm Password" inputType="password" />
+        <CustomInput labelText="Phone Number" inputType="number" />
       </div>
     </div>
   );
